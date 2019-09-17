@@ -1,0 +1,12 @@
+1.) A building-material-list komponensben az arra használatos for megoldással, string interpolációval jelenítsd
+meg a komponens bricks nevű tömb adattagjának a tartalmát. 
+2.) Ez alatt hasonlóan jelenítsd meg a building-materials tömb tartalmát is úgy, hogy a megjelenítő ciklus
+használja fel a building-material nevű komponenst! A building-material komponens model nevű, BuildingMaterial típusú adattagja a 
+for cikluson belül kapjon értéket! A building-material komponens HTMLjét módosítsd úgy,
+hogy megjelenjenenek a building-material adatai a "building-material komponens works!" szöveg helyén!
+3.) A building-material komponens injektálja be a LoggerService nevű service-t,
+és hívja meg a log nevű metódusát a model nevű, BuildingMaterial típusú adattagjának címével (title).
+4.) Az alkalmazás tartalmaz egy BuildingMaterialService nevű service-t. A BuildingMaterialList komponens injektálja be a service-t,
+és hívja meg a BuildingMaterialService getBuildingMaterials metódusát. A metódus által visszaadott értéket
+kezeljük le a mefelelő módon, az eredmény könyv tömböt tároljuk el a BuildingMaterialList osztály
+building-materials nevű adattagjába!
